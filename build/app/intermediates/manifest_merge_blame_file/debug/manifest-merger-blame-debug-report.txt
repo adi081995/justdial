@@ -1,0 +1,622 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nlytical.primocys"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+19-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:13:5-83
+19-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:13:22-80
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:location] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+20-->[:location] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->[:location] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+21-->[:location] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-68
+22-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+24-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+29
+30    <application
+30-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:14:5-61:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:15:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\3e9c9a8e738edd917bbf9da4b8aea3ab\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:17:9-43
+35        android:label="Nlytical"
+35-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:16:9-33
+36        android:supportsRtl="true"
+36-->[com.facebook.android:facebook-login:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\c9f1c0a698a9d6fe854c755b635bb432\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:18:9-44
+38        <meta-data
+38-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:19:9-21:72
+39            android:name="com.google.android.gms.ads.APPLICATION_ID"
+39-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:20:16-72
+40            android:value="ca-app-pub-8611598858193390~4431326103" />
+40-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:21:16-70
+41        <meta-data
+41-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:22:9-23:73
+42            android:name="com.google.android.geo.API_KEY"
+42-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:22:20-65
+43            android:value="AIzaSyDaA7HIAuhAyRaXSZkkO7o3H_zvYFGvLU8" />
+43-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:23:16-71
+44
+45        <activity
+45-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:24:9-36:20
+46            android:name="com.nlytical.primocys.MainActivity"
+46-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:25:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:27:13-163
+48            android:hardwareAccelerated="true"
+48-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:28:13-47
+49            android:launchMode="singleTop"
+49-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:26:13-43
+50            android:theme="@style/FullyTranslucent"
+50-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:30:13-52
+51            android:windowSoftInputMode="adjustResize" >
+51-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:29:13-55
+52            <intent-filter>
+52-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:32:13-35:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:33:17-68
+53-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:33:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:34:17-76
+55-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:34:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:39:9-41:33
+63            android:name="flutterEmbedding"
+63-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:40:13-44
+64            android:value="2" />
+64-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:41:13-30
+65        <meta-data
+65-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:42:23-43:50
+66            android:name="com.facebook.sdk.ApplicationId"
+66-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:42:34-79
+67            android:value="@string/facebook_app_id" />
+67-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:43:9-48
+68
+69        <activity
+69-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:45:5-48:44
+70            android:name="com.facebook.FacebookActivity"
+70-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:45:15-59
+71            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+71-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:46:9-109
+72            android:label="@string/app_name"
+72-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:48:9-41
+73            android:theme="@style/com_facebook_activity_theme" />
+73-->[com.facebook.android:facebook-common:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\225249a06cc42e35072a13d916f1da80\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+74        <activity
+74-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:50:10-59:16
+75            android:name="com.facebook.CustomTabActivity"
+75-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:51:9-54
+76            android:exported="true" >
+76-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:52:9-32
+77            <intent-filter>
+77-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:53:9-58:25
+78                <action android:name="android.intent.action.VIEW" />
+78-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:13-65
+78-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:21-62
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:13-72
+80-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:23-69
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:13-74
+81-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:23-71
+82
+83                <data android:scheme="@string/fb_login_protocol_scheme" />
+83-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:13-71
+83-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:19-68
+84            </intent-filter>
+85        </activity>
+86
+87        <provider
+87-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+89            android:authorities="com.nlytical.primocys.flutter.image_provider"
+89-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+90            android:exported="false"
+90-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+92            <meta-data
+92-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+95        </provider>
+96
+97        <service
+97-->[:cloud_firestore] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[:cloud_firestore] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+101            <meta-data
+101-->[:cloud_firestore] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+102-->[:cloud_firestore] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:cloud_firestore] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_auth] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+105-->[:firebase_auth] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_auth] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[:firebase_storage] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+108-->[:firebase_storage] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_storage] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+111-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:35:17-128
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-82
+113            <meta-data
+113-->[:firebase_core] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+120                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+120-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\aa8715bbe4fd6d2cbd88e8bb08b66513\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\aa8715bbe4fd6d2cbd88e8bb08b66513\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\aa8715bbe4fd6d2cbd88e8bb08b66513\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1785901af8fd62c8ea032c6b959e4a63\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+126                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+126-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1785901af8fd62c8ea032c6b959e4a63\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1785901af8fd62c8ea032c6b959e4a63\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+128            <meta-data
+128-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\34541d6d17f1d78546c692a241dc4917\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+129                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+129-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\34541d6d17f1d78546c692a241dc4917\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\34541d6d17f1d78546c692a241dc4917\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\25dc92504668eed38f67756f7d4889a7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+132                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+132-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\25dc92504668eed38f67756f7d4889a7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\25dc92504668eed38f67756f7d4889a7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\cfe88608cc74195087cd36da03dd6873\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+135-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\cfe88608cc74195087cd36da03dd6873\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\cfe88608cc74195087cd36da03dd6873\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+137        </service>
+138        <service
+138-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:72
+139            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+139-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-107
+140            android:exported="false"
+140-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-69
+142        <service
+142-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:19
+143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+143-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-97
+144            android:exported="false" >
+144-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+145            <intent-filter>
+145-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+146                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+146-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+146-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+147            </intent-filter>
+148        </service>
+149
+150        <receiver
+150-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-31:20
+151            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+151-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-98
+152            android:exported="true"
+152-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-73
+154            <intent-filter>
+154-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+155-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+156            </intent-filter>
+157        </receiver>
+158
+159        <provider
+159-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-43:38
+160            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+160-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
+161            android:authorities="com.nlytical.primocys.flutterfirebasemessaginginitprovider"
+161-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-88
+162            android:exported="false"
+162-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+163            android:initOrder="99" />
+163-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
+164        <provider
+164-->[:share] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+165            android:name="io.flutter.plugins.share.ShareFileProvider"
+165-->[:share] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-70
+166            android:authorities="com.nlytical.primocys.flutter.share_provider"
+166-->[:share] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+167            android:exported="false"
+167-->[:share] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+168            android:grantUriPermissions="true" >
+168-->[:share] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+169            <meta-data
+169-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+170                android:name="android.support.FILE_PROVIDER_PATHS"
+170-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+171                android:resource="@xml/flutter_share_file_paths" />
+171-->[:image_picker] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+172        </provider>
+173
+174        <activity
+174-->[:url_launcher] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+175            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+175-->[:url_launcher] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+176            android:exported="false"
+176-->[:url_launcher] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+177            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+177-->[:url_launcher] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+178        <activity
+178-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+179            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+180            android:excludeFromRecents="true"
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+181            android:exported="true"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+182            android:launchMode="singleTask"
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+185                <action android:name="android.intent.action.VIEW" />
+185-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:13-65
+185-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:21-62
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:13-72
+187-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:23-69
+188                <category android:name="android.intent.category.BROWSABLE" />
+188-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:13-74
+188-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:23-71
+189
+190                <data
+190-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:13-71
+191                    android:host="firebase.auth"
+192                    android:path="/"
+193                    android:scheme="genericidp" />
+193-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:19-68
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+197            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+198            android:excludeFromRecents="true"
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+199            android:exported="true"
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+200            android:launchMode="singleTask"
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+202            <intent-filter>
+202-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+203                <action android:name="android.intent.action.VIEW" />
+203-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:13-65
+203-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:54:21-62
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:13-72
+205-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:23-69
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:13-74
+206-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:56:23-71
+207
+208                <data
+208-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:13-71
+209                    android:host="firebase.auth"
+210                    android:path="/"
+211                    android:scheme="recaptcha" />
+211-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:57:19-68
+212            </intent-filter>
+213        </activity>
+214
+215        <service
+215-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+216            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+216-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+217            android:enabled="true"
+217-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+218            android:exported="false" >
+218-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+219            <intent-filter>
+219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+220                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+220-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+220-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\0aa691efe31403c27bc340d1d10a5459\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+221
+222                <category android:name="android.intent.category.DEFAULT" />
+222-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:13-72
+222-->C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\android\app\src\main\AndroidManifest.xml:55:23-69
+223            </intent-filter>
+224        </service>
+225
+226        <activity android:name="com.facebook.CustomTabMainActivity" />
+226-->[com.facebook.android:facebook-common:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\225249a06cc42e35072a13d916f1da80\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+226-->[com.facebook.android:facebook-common:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\225249a06cc42e35072a13d916f1da80\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+227        <!--
+228         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+229         with the application context. This config is merged in with the host app's manifest,
+230         but there can only be one provider with the same authority activated at any given
+231         point; so if the end user has two or more different apps that use Facebook SDK, only the
+232         first one will be able to use the provider. To work around this problem, we use the
+233         following placeholder in the authority to identify each host application as if it was
+234         a completely different provider.
+235        -->
+236        <provider
+236-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+237            android:name="com.facebook.internal.FacebookInitProvider"
+237-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+238            android:authorities="com.nlytical.primocys.FacebookInitProvider"
+238-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+239            android:exported="false" />
+239-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+240
+241        <receiver
+241-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+242            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+242-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+243            android:exported="false" >
+243-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+244            <intent-filter>
+244-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+245                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+245-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+245-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+249            android:name="com.facebook.CampaignTrackingReceiver"
+249-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+250            android:exported="true"
+250-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+251            android:permission="android.permission.INSTALL_PACKAGES" >
+251-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+252            <intent-filter>
+252-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+253                <action android:name="com.android.vending.INSTALL_REFERRER" />
+253-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+253-->[com.facebook.android:facebook-core:5.5.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\7ba4b0c416f5a6ddf43581b102c60e57\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+254            </intent-filter>
+255        </receiver>
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+257-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+259            android:exported="false" >
+259-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+260        </receiver>
+261
+262        <service
+262-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+266        <service
+266-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" />
+270-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\198400750e3f8141cbf75d1aea0e358f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+271
+272        <receiver
+272-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+273            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+273-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+274            android:exported="true"
+274-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+275            android:permission="com.google.android.c2dm.permission.SEND" >
+275-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+276            <intent-filter>
+276-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+277                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+277-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+277-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+278            </intent-filter>
+279        </receiver>
+280        <!--
+281             FirebaseMessagingService performs security checks at runtime,
+282             but set to not exported to explicitly avoid allowing another app to call it.
+283        -->
+284        <service
+284-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+285            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+285-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+286            android:directBootAware="true"
+286-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+287            android:exported="false" >
+287-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\1f00594675cb9290bca51ebbb1f993ab\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+288            <intent-filter android:priority="-500" >
+288-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+289                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+289-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+289-->[:firebase_messaging] C:\Users\salun\Downloads\Adi\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\Nlytical Flutter App\nlytical_flutter\nlytical_user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+290            </intent-filter>
+291        </service>
+292
+293        <activity
+293-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+294            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+294-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+295            android:excludeFromRecents="true"
+295-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+296            android:exported="false"
+296-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+297            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+297-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+298        <!--
+299            Service handling Google Sign-In user revocation. For apps that do not integrate with
+300            Google Sign-In, this service will never be started.
+301        -->
+302        <service
+302-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+303            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+303-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+304            android:exported="true"
+304-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+305            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+305-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\947639b91cf9f85790f008e872ffa779\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+306        <uses-library
+306-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+307            android:name="org.apache.http.legacy"
+307-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+308            android:required="false" />
+308-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\ae24abad57ef3883250b4171ccb3ece8\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+309
+310        <activity
+310-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\b62a469525575c322b2d9e31406b5a9c\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+311            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+311-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\b62a469525575c322b2d9e31406b5a9c\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+312            android:exported="false"
+312-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\b62a469525575c322b2d9e31406b5a9c\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+313            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+313-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\b62a469525575c322b2d9e31406b5a9c\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+314
+315        <provider
+315-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+316            android:name="com.google.firebase.provider.FirebaseInitProvider"
+316-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+317            android:authorities="com.nlytical.primocys.firebaseinitprovider"
+317-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+318            android:directBootAware="true"
+318-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+319            android:exported="false"
+319-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+320            android:initOrder="100" />
+320-->[com.google.firebase:firebase-common:20.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\e8a5fff0fd6fb960db857cd6ff4c1236\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+321
+322        <meta-data
+322-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\c8d619656d3823e167ba228a1f288b11\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+323            android:name="com.google.android.gms.version"
+323-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\c8d619656d3823e167ba228a1f288b11\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+324            android:value="@integer/google_play_services_version" />
+324-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\c8d619656d3823e167ba228a1f288b11\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+325
+326        <service
+326-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+327            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+327-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+328            android:exported="false" >
+328-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+329            <meta-data
+329-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+330                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+330-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+331                android:value="cct" />
+331-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\37b89d62a13da1d3f9b88fdc44f91b72\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+332        </service>
+333        <service
+333-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+334            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+334-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+335            android:exported="false"
+335-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+336            android:permission="android.permission.BIND_JOB_SERVICE" >
+336-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+337        </service>
+338
+339        <receiver
+339-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+340            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+340-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+341            android:exported="false" />
+341-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\salun\.gradle\caches\transforms-2\files-2.1\75378bfbb253386ee17bbe83984986fe\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+342    </application>
+343
+344</manifest>

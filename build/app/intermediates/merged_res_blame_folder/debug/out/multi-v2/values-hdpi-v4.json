@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\salun\\Downloads\\Adi\\codecanyon-W9fwBRa2-business-listing-flutter-app-with-admin-panel\\Nlytical Flutter App\\nlytical_flutter\\nlytical_user\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\salun\\.gradle\\caches\\transforms-2\\files-2.1\\6c8aead12547fe99b5bff267481324ec\\appcompat-1.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

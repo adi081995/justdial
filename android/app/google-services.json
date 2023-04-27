@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "564982909197",
+    "project_id": "nlytical",
+    "storage_bucket": "nlytical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564982909197:android:a90844cbed99681510c844",
+        "android_client_info": {
+          "package_name": "com.nlytical.primocys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564982909197-3f5vktttu1p9i1spbpikjupls5r3qjdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nlytical.primocys",
+            "certificate_hash": "5b59e950a4aa2b75c91b836360c8f3d203abd90d"
+          }
+        },
+        {
+          "client_id": "564982909197-a7bv0c4pc6pkctt5fnjfl27l6icc047s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nlytical.primocys",
+            "certificate_hash": "1e8ba1c50e67d460c952407b9e36ec9d470895c7"
+          }
+        },
+        {
+          "client_id": "564982909197-h2r4e32uc5l59qsk7q7faol4q5rgpb17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1LNsAlJ0uUnppgzwlRjOc-WDuYsZPyXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564982909197-h2r4e32uc5l59qsk7q7faol4q5rgpb17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564982909197:android:a8a946bb761410ce10c844",
+        "android_client_info": {
+          "package_name": "com.nlyticalvendor.primocys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564982909197-cobi3pjuhrkbnre09vd6cncjf25v73sb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nlyticalvendor.primocys",
+            "certificate_hash": "5b59e950a4aa2b75c91b836360c8f3d203abd90d"
+          }
+        },
+        {
+          "client_id": "564982909197-h2r4e32uc5l59qsk7q7faol4q5rgpb17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1LNsAlJ0uUnppgzwlRjOc-WDuYsZPyXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564982909197-h2r4e32uc5l59qsk7q7faol4q5rgpb17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
